@@ -1,0 +1,28 @@
+const mongoose = require('mongoose');
+
+const EventSchema = new mongoose.Schema({
+  year: {
+    type: Number,
+    unique: true,
+    required: [true, 'Please add a year'],
+  },
+  country: {
+    type: String,
+    required: true,
+  },
+  city: {
+    type: String,
+    required: [true, 'Please add a city'],
+  },
+  image: String,
+  logo: {
+    type: String,
+    required: [true, 'Please add a logo'],
+  },
+  bio: String,
+  video: {
+    type: String,
+  },
+});
+
+module.exports = mongoose.model('Event', EventSchema);

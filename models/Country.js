@@ -23,7 +23,7 @@ const CountrySchema = new mongoose.Schema({
   },
   flag: {
     type: String,
-    required: [true, 'Please add a country code'],
+    required: [true, 'Please add a flag'],
   },
   image: String,
   bio: String,

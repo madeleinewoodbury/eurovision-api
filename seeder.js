@@ -8,6 +8,7 @@ dotenv.config({ path: './config/config.env' });
 
 // Load models
 const Country = require('./models/Country');
+const Event = require('./models/Event');
 
 // Connect to DB
 mongoose.connect(process.env.MONGO_URI, {
@@ -22,10 +23,15 @@ const countries = JSON.parse(
   fs.readFileSync(`${__dirname}/_data/countries.json`, 'utf-8')
 );
 
+const events = JSON.parse(
+  fs.readFileSync(`${__dirname}/_data/events.json`, 'utf-8')
+);
+
 // Import into DB
 const importData = async () => {
   try {
     await Country.create(countries);
+    await Event.create(events);
     console.log('Data Imported...'.green.inverse);
     process.exit();
   } catch (err) {
@@ -37,6 +43,7 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     await Country.deleteMany();
+    await Event.deleteMany();
     console.log('Data Destroyed...'.red.inverse);
     process.exit();
   } catch (err) {

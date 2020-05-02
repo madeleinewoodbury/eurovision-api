@@ -1,0 +1,458 @@
+[
+  {
+    "year": 1956,
+    "country": "Switzerland",
+    "city": "Lugano",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f44-f10e-4bab-ba4c-675dd7dd82ed.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1957,
+    "country": "Germany",
+    "city": "Frankfurt",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-010b-4deb-81f7-f313f4b04742.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1958,
+    "country": "The Netherlands",
+    "city": "Hilversum",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-168b-46df-ad13-6343a3cdebe9.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1959,
+    "country": "France",
+    "city": "Cannes",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f44-c392-42bc-a0b5-43a61a7be34f.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1960,
+    "country": "United Kingdom",
+    "city": "London",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f44-d92d-494e-b00b-305de7d1b6da.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1961,
+    "country": "France",
+    "city": "Cannes",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-2f49-4d38-97c5-38f986eba625.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1962,
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-5c79-4fdc-9ffe-d248f28003dc.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1963,
+    "country": "United Kingdom",
+    "city": "London",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-46b8-4f73-86b2-386d8eb9e71d.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1964,
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-895a-4740-ba7e-2da2102e608a.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1965,
+    "country": "Italy",
+    "city": "Naples",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-716f-4f6f-ad9a-c46de3878788.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1966,
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-a2a0-4099-a4e7-14843f3a9bbc.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1967,
+    "country": "Austria",
+    "city": "Vienna",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-b7c9-40df-92fa-97096c5f14f7.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1968,
+    "country": "United Kingdom",
+    "city": "London",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-e4fe-4b52-a223-281e9c9aba3b.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1969,
+    "country": "Spain",
+    "city": "Madrid",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-1085-4777-be7b-a33e1f1f8084.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1970,
+    "country": "The Netherlands",
+    "city": "Amsterdam",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-cfd8-4c3d-b57a-a7f78dbad5cc.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1971,
+    "country": "Ireland",
+    "city": "Dublin",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f45-fa42-4da4-8ff7-02d3d718bde4.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1972,
+    "country": "United Kingdom",
+    "city": "Edinburgh",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-27c5-45de-8324-35fd6bee19ba.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1973,
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-40a0-47d3-a1bb-2e93151c2671.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1974,
+    "country": "United Kingdom",
+    "city": "Brighton",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-55b6-4e55-aa4e-a71dbb5b70d3.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1975,
+    "country": "Sweden",
+    "city": "Stockholm",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-72f8-4873-a22c-8d228d71253e.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1976,
+    "country": "The Netherlands",
+    "city": "The Hague",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-8b1e-4605-8b1c-5978bc7250ee.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1977,
+    "country": "United Kingdom",
+    "city": "London",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-af95-4c8b-88df-10eba1e25077.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1978,
+    "country": "France",
+    "city": "Paris",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-c73b-4288-931f-26987bd15d1f.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1979,
+    "country": "Israel",
+    "city": "Jerusalem",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-dc63-4fe5-b14d-bdfc73f58f9d.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1980,
+    "country": "The Netherlands",
+    "city": "The Hague",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f46-f32f-4312-b9bf-e0fd9e8a06a2.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1981,
+    "country": "Ireland",
+    "city": "Dublin",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-2751-489f-af50-85a47f036b6b.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1982,
+    "country": "United Kingdom",
+    "city": "Harrogate",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-0f64-4429-9acb-ed983efdeb7f.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1983,
+    "country": "Germany",
+    "city": "Munich",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-3a8d-422d-8327-eaaf851f0f21.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1984,
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-51fe-4e71-8c86-4f53a34ed7fb.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1985,
+    "country": "Sweden",
+    "city": "Gothenburg",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-656d-4772-9066-6a2b5d6ee958.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1986,
+    "country": "Norway",
+    "city": "Bergen",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-7a78-41ee-b923-7df35c8f03e4.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1987,
+    "country": "Belgium",
+    "city": "Brussels 1987",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-8dff-4fda-a122-1c6b4ffb39fe.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1988,
+    "country": "Ireland",
+    "city": "Dublin",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-ceca-4d07-a06a-920a9722042c.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1989,
+    "country": "Switzerland",
+    "city": "Lausanne",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-b804-407b-b888-98492ac3dc28.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1990,
+    "country": "Yugoslavia",
+    "city": "Zagreb",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-a2ac-46c0-af1f-bf6e3b417e2a.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1991,
+    "country": "Italy",
+    "city": "Rome",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-e2a1-4876-96aa-bac698bcc2ef.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1992,
+    "country": "Sweden",
+    "city": "Malmö",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f47-f8ed-4dcb-929e-f8991ac70bcd.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1993,
+    "country": "Ireland",
+    "city": "Millstreet",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-1191-4035-a338-b355e2282827.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1994,
+    "country": "Ireland",
+    "city": "Dublin",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-4653-4a6c-a1b1-8e551ce5b13f.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1995,
+    "country": "Ireland",
+    "city": "Dublin",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-2837-44b2-a00b-b21a084a0f77.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1996,
+    "country": "Norway",
+    "city": "Oslo",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-5c1b-466f-b1b7-795b650c2f02.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1997,
+    "country": "Ireland",
+    "city": "Dublin",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-701e-4559-867f-e6a6b8313cfb.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1998,
+    "country": "United Kingdom",
+    "city": "Birmingham",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-855f-4664-8e1b-660c6fe235ab.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 1999,
+    "country": "Israel",
+    "city": "Jerusalem",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-9aff-425c-aa20-5046cbc8e8cf.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2000,
+    "country": "Sweden",
+    "city": "Stockholm",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-ae77-41b7-960a-c978cfba0611.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2001,
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-c555-4626-9bf2-8981ade738ff.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2002,
+    "country": "Estonia",
+    "city": "Tallinn",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-dbf4-44f4-864b-f9f34fdc1ab2.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2003,
+    "country": "Latvia",
+    "city": "Riga",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f48-f044-45f8-8bce-bc1445fd6259.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2004,
+    "country": "Turkey",
+    "city": "Istanbul",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-06d5-4d13-ac28-842d32140dac.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2005,
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-1bf9-45d9-8c71-c3e684616604.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2006,
+    "country": "Greece",
+    "city": "Athens",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-2ed5-4774-b3c9-f8db1b274734.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2007,
+    "country": "Finland",
+    "city": "Helsinki",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-41ee-4e58-a3a4-09bfbb639873.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2008,
+    "country": "Serbia",
+    "city": "Belgrade",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-5875-4b32-8338-f18f403b8af0.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2009,
+    "country": "Russia",
+    "city": "Moscow",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-6ee7-4a70-b85c-bb9608b829a2.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2010,
+    "country": "Norway",
+    "city": "Oslo",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-83a6-468b-ba36-0d9b688f0df5.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2011,
+    "country": "Germany",
+    "city": "Düsseldorf",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-9db5-4499-970f-e039631b1f70.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2012,
+    "country": "Azerbaijan",
+    "city": "Baku",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-b219-4b76-9ff9-5d169eb3b0f5.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2013,
+    "country": "Sweden",
+    "city": "Malmö",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-ca92-448b-91ce-581b6ba82ca1.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2014,
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-e53c-4ac2-93a3-26b283010e2f.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2015,
+    "country": "Austria",
+    "city": "Vienna",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f49-fcf3-4d2b-a069-2e17235385fb.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2016,
+    "country": "Sweden",
+    "city": "Stockholm",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f4a-11a7-49f2-896f-b42d5930b742.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2017,
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f4a-257b-4f46-a05a-6712ddf78ade.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2018,
+    "country": "Portugal",
+    "city": "Lisbon",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d917f4a-3951-4134-a279-2a760ecc5bb0.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "year": 2019,
+    "country": "Israel",
+    "city": "Tel Avuv",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8d9181b6-df07-47c2-bc28-2c4b96bc46b4.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+
+  {
+    "year": 2020,
+    "country": "The Netherlands",
+    "city": "Rotterdam",
+    "logo": "https://static.eurovision.tv/hb-cgi/images/8e849f73-e0db-4864-b5be-107028b6800f.png",
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  }
+]
