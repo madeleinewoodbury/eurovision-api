@@ -10,9 +10,9 @@ const CountrySchema = new mongoose.Schema({
   },
   capital: {
     type: String,
-    required: [true, 'Please add a capital'],
-    trim: true,
-    maxlength: [50, 'Capital can not be more than 50 characters'],
+    // required: [true, 'Please add a capital'],
+    // trim: true,
+    // maxlength: [50, 'Capital can not be more than 50 characters'],
   },
   code: {
     type: String,
