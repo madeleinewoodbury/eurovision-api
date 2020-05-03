@@ -15,6 +15,8 @@ const participantRouter = require('./participants');
 const Country = require('../models/Country');
 const advancedResults = require('../middleware/advancedResults');
 
+const { protect } = require('../middleware/auth');
+
 // Re-route into other resource routers
 router.use('/:countryId/events', eventRouter);
 router.use('/:countryId/participants', participantRouter);
@@ -22,7 +24,11 @@ router.use('/:countryId/participants', participantRouter);
 router
   .route('/')
   .get(advancedResults(Country, 'events'), getCountries)
-  .post(createCountry);
-router.route('/:id').get(getCountry).put(updateCountry).delete(deleteCountry);
+  .post(protect, createCountry);
+router
+  .route('/:id')
+  .get(getCountry)
+  .put(protect, updateCountry)
+  .delete(protect, deleteCountry);
 
 module.exports = router;
