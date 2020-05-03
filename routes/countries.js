@@ -10,12 +10,14 @@ const router = express.Router();
 
 // Include other resource routers
 const eventRouter = require('./events');
+const participantRouter = require('./participants');
 
 const Country = require('../models/Country');
 const advancedResults = require('../middleware/advancedResults');
 
 // Re-route into other resource routers
 router.use('/:countryId/events', eventRouter);
+router.use('/:countryId/participants', participantRouter);
 
 router
   .route('/')

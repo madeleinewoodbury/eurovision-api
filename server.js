@@ -24,6 +24,7 @@ if (process.env.NODE_ENV === 'development') {
 // Mount routes
 app.use('/api/v1/countries', require('./routes/countries'));
 app.use('/api/v1/events', require('./routes/events'));
+app.use('/api/v1/participants', require('./routes/participants'));
 
 app.use(errorHandler);
 

@@ -1,4 +1,4 @@
-const advancedResults = (model, populate) => async (req, res, next) => {
+const advancedResults = (model, ref1, ref2) => async (req, res, next) => {
   let query;
 
   // Copy req.query
@@ -45,8 +45,12 @@ const advancedResults = (model, populate) => async (req, res, next) => {
 
   query = query.skip(startIndex).limit(limit);
 
-  if (populate) {
-    query = query.populate(populate);
+  if (ref1) {
+    query = query.populate(ref1);
+  }
+
+  if (ref2) {
+    query = query.populate(ref2);
   }
 
   // Executing query

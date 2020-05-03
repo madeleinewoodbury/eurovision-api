@@ -11,9 +11,9 @@ exports.getCountries = asyncHandler(async (req, res, next) => {
 
 // @desc      Get a single country
 // @route     GET /api/v1/countries/:id
-// @access    Private
+// @access    Public
 exports.getCountry = asyncHandler(async (req, res, next) => {
-  const country = await Country.findById(req.params.id);
+  const country = await Country.findById(req.params.id).populate('events');
   if (!country) {
     return next(
       new ErrorResponse(`Country not found with id of ${req.params.id}`, 404)

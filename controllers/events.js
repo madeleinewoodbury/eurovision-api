@@ -22,9 +22,13 @@ exports.getEvents = asyncHandler(async (req, res, next) => {
 
 // @desc      Get a single event
 // @route     GET /api/v1/events/:id
-// @access    Private
+// @access    Public
 exports.getEvent = asyncHandler(async (req, res, next) => {
-  const event = await Event.findById(req.params.id);
+  const event = await Event.findById(req.params.id).populate({
+    path: 'country',
+    select: 'name code',
+  });
+
   if (!event) {
     return next(
       new ErrorResponse(`Event not found with id of ${req.params.id}`, 404)

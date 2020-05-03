@@ -1,0 +1,143 @@
+[
+  {
+    "artist": "Jetty Paerl",
+    "song": "De Vogels Van Holland",
+    "country": "5eadfb0a6448e14d2468957a",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "1",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Lys Assia",
+    "song": "Das Alte Karussell",
+    "country": "5eadfb0a6448e14d24689579",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "2",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Fud Leclerc",
+    "song": "Messieurs Les Noyés De La Seine",
+    "country": "5eadfb0a6448e14d24689552",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "3",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Walter Andreas Schwarz",
+    "song": "Im Wartesaal Zum Großen Glück",
+    "country": "5eadfb0a6448e14d2468955d",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "4",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Mathé Altéry",
+    "song": "Le Temps Perdu",
+    "country": "5eadfb0a6448e14d2468955b",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "5",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Michèle Arnaud",
+    "song": "Ne Crois Pas",
+    "country": "5eadfb0a6448e14d24689566",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "6",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Franca Raimondi",
+    "song": "Aprite Le Finestre",
+    "country": "5eadfb0a6448e14d24689563",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "7",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Corry Brokken",
+    "song": "Voorgoed Voorbij",
+    "country": "5eadfb0a6448e14d2468957a",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "8",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Lys Assia",
+    "song": "Refrain",
+    "country": "5eadfb0a6448e14d24689579",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "9",
+    "points": 1,
+    "winner": true,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Mony Marc",
+    "song": "Le Plus Beau Jour De Ma Vie",
+    "country": "5eadfb0a6448e14d24689552",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "10",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Freddy Quinn",
+    "song": "So Geht Das Jede Nacht",
+    "country": "5eadfb0a6448e14d2468955d",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "11",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Dany Dauberson",
+    "song": "Il Est Là",
+    "country": "5eadfb0a6448e14d2468955b",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "12",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Michèle Arnaud",
+    "song": "Les Amants De Minuit",
+    "country": "5eadfb0a6448e14d24689566",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "13",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  },
+  {
+    "artist": "Tonina Torielli",
+    "song": "Amami Se Vuoi",
+    "country": "5eadfb0a6448e14d24689563",
+    "event": "5eae04f668b0125030737784",
+    "final": true,
+    "startNr": "14",
+    "points": 0,
+    "image": "https://static.eurovision.tv/images/placeholder.jpg?id=cb2836e4db74575ca788"
+  }
+]
