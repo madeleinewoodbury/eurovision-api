@@ -17,7 +17,7 @@ const advancedResults = require('../middleware/advancedResults');
 // Re-route into other resource routers
 router.use('/:eventId/participants', participantRouter);
 
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 
 router
   .route('/')
@@ -28,11 +28,11 @@ router
     }),
     getEvents
   )
-  .post(protect, createEvent);
+  .post(protect, authorize('admin'), createEvent);
 router
   .route('/:id')
   .get(getEvent)
-  .put(protect, updateEvent)
-  .delete(protect, deleteEvent);
+  .put(protect, authorize('admin'), updateEvent)
+  .delete(protect, authorize('admin'), deleteEvent);
 
 module.exports = router;

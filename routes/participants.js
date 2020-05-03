@@ -11,7 +11,7 @@ const router = express.Router({ mergeParams: true });
 const Participant = require('../models/Participant');
 const advancedResults = require('../middleware/advancedResults');
 
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 
 router
   .route('/')
@@ -26,12 +26,12 @@ router
     ),
     getParticipants
   )
-  .post(protect, createParticipant);
+  .post(protect, authorize('admin'), createParticipant);
 
 router
   .route('/:id')
   .get(getParticipant)
-  .put(protect, updateParticipant)
-  .delete(protect, deleteParticipant);
+  .put(protect, authorize('admin'), updateParticipant)
+  .delete(protect, authorize('admin'), deleteParticipant);
 
 module.exports = router;
