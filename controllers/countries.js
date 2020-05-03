@@ -6,10 +6,7 @@ const asyncHandler = require('../middleware/async');
 // @route     GET /api/v1/countries
 // @access    Public
 exports.getCountries = asyncHandler(async (req, res, next) => {
-  const countries = await Country.find();
-  res
-    .status(200)
-    .json({ success: true, count: countries.length, data: countries });
+  res.status(200).json(res.advancedResults);
 });
 
 // @desc      Get a single country

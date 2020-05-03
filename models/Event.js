@@ -7,7 +7,8 @@ const EventSchema = new mongoose.Schema({
     required: [true, 'Please add a year'],
   },
   country: {
-    type: String,
+    type: mongoose.Schema.ObjectId,
+    ref: 'Country',
     required: true,
   },
   city: {

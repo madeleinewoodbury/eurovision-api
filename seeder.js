@@ -30,7 +30,7 @@ const events = JSON.parse(
 // Import into DB
 const importData = async () => {
   try {
-    await Country.create(countries);
+    // await Country.create(countries);
     await Event.create(events);
     console.log('Data Imported...'.green.inverse);
     process.exit();
@@ -42,7 +42,7 @@ const importData = async () => {
 // Delete data
 const deleteData = async () => {
   try {
-    await Country.deleteMany();
+    // await Country.deleteMany();
     await Event.deleteMany();
     console.log('Data Destroyed...'.red.inverse);
     process.exit();
