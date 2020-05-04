@@ -8,27 +8,7 @@ const asyncHandler = require('../middleware/async');
 // @route     GET /api/v1/events/:eventId/participants
 // @access    Public
 exports.getParticipants = asyncHandler(async (req, res, next) => {
-  if (req.params.countryId) {
-    const participants = await Participant.find({
-      country: req.params.countryId,
-    });
-
-    return res.status(200).json({
-      success: true,
-      count: participants.length,
-      data: participants,
-    });
-  } else if (req.params.eventId) {
-    const participants = await Participant.find({ event: req.params.eventId });
-
-    return res.status(200).json({
-      success: true,
-      count: participants.length,
-      data: participants,
-    });
-  } else {
-    res.status(200).json(res.advancedResults);
-  }
+  res.status(200).json(res.advancedResults);
 });
 
 // @desc      Get a single participant

@@ -20,7 +20,13 @@ const advancedResults = (model, ref1, ref2) => async (req, res, next) => {
   );
 
   // Finding resource
-  query = model.find(JSON.parse(queryStr));
+  if (req.params.eventId) {
+    query = model.find({ event: req.params.eventId });
+  } else if (req.params.countryId) {
+    query = model.find({ country: req.params.countryId });
+  } else {
+    query = model.find(JSON.parse(queryStr));
+  }
 
   // Select Fields
   if (req.query.select) {
@@ -38,7 +44,7 @@ const advancedResults = (model, ref1, ref2) => async (req, res, next) => {
 
   // Pagination
   const page = parseInt(req.query.page, 10) || 1;
-  const limit = parseInt(req.query.limit, 10) || 25;
+  const limit = parseInt(req.query.limit, 10) || 100;
   const startIndex = (page - 1) * limit;
   const endIndex = page * limit;
   const total = await model.countDocuments(JSON.parse(queryStr));
