@@ -40,7 +40,7 @@ const ParticipantSchema = new mongoose.Schema({
     required: true,
   },
   image: String,
-  bio: String,
+  bio: Array,
   video: {
     type: String,
   },

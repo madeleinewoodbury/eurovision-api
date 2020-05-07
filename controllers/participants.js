@@ -40,6 +40,12 @@ exports.getParticipant = asyncHandler(async (req, res, next) => {
 // @route     POST /api/v1/participants
 // @access    Private
 exports.createParticipant = asyncHandler(async (req, res, next) => {
+  // Turn bio into an array
+  if (req.body.bio) {
+    let bio = req.body.bio;
+    bio = bio.split('*');
+    req.body.bio = bio;
+  }
   const participant = await Participant.create(req.body);
   res.status(200).json({ success: true, data: participant });
 });
@@ -48,6 +54,12 @@ exports.createParticipant = asyncHandler(async (req, res, next) => {
 // @route     PUT /api/v1/participants/:id
 // @access    Private
 exports.updateParticipant = asyncHandler(async (req, res, next) => {
+  // Turn bio into an array
+  if (req.body.bio) {
+    let bio = req.body.bio;
+    bio = bio.split('*');
+    req.body.bio = bio;
+  }
   const participant = await Participant.findByIdAndUpdate(
     req.params.id,
     req.body,

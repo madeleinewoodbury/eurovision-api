@@ -26,6 +26,12 @@ exports.getCountry = asyncHandler(async (req, res, next) => {
 // @route     POST /api/v1/countries
 // @access    Private
 exports.createCountry = asyncHandler(async (req, res, next) => {
+  // Turn bio into an array
+  if (req.body.bio) {
+    let bio = req.body.bio;
+    bio = bio.split('*');
+    req.body.bio = bio;
+  }
   const country = await Country.create(req.body);
   res.status(200).json({ success: true, data: country });
 });
@@ -34,6 +40,12 @@ exports.createCountry = asyncHandler(async (req, res, next) => {
 // @route     PUT /api/v1/countries/:id
 // @access    Private
 exports.updateCountry = asyncHandler(async (req, res, next) => {
+  // Turn bio into an array
+  if (req.body.bio) {
+    let bio = req.body.bio;
+    bio = bio.split('*');
+    req.body.bio = bio;
+  }
   const country = await Country.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
     runValidators: true,

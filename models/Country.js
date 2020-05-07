@@ -28,7 +28,7 @@ const CountrySchema = new mongoose.Schema(
       required: [true, 'Please add a flag'],
     },
     image: String,
-    bio: String,
+    bio: Array,
     firstParticipation: {
       type: Number,
       required: true,

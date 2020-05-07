@@ -21,7 +21,7 @@ const EventSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please add a logo'],
   },
-  bio: String,
+  bio: Array,
   video: {
     type: String,
   },

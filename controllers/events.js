@@ -31,6 +31,13 @@ exports.getEvent = asyncHandler(async (req, res, next) => {
 // @route     POST /api/v1/events
 // @access    Private
 exports.createEvent = asyncHandler(async (req, res, next) => {
+  // Turn bio into an array
+  if (req.body.bio) {
+    let bio = req.body.bio;
+    bio = bio.split('*');
+    req.body.bio = bio;
+  }
+
   const event = await Event.create(req.body);
   res.status(200).json({ success: true, data: event });
 });
@@ -39,6 +46,13 @@ exports.createEvent = asyncHandler(async (req, res, next) => {
 // @route     PUT /api/v1/events/:id
 // @access    Private
 exports.updateEvent = asyncHandler(async (req, res, next) => {
+  // Turn bio into an array
+  if (req.body.bio) {
+    let bio = req.body.bio;
+    bio = bio.split('*');
+    req.body.bio = bio;
+  }
+
   const event = await Event.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
     runValidators: true,
