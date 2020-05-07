@@ -16,7 +16,7 @@ exports.getEvents = asyncHandler(async (req, res, next) => {
 exports.getEvent = asyncHandler(async (req, res, next) => {
   const event = await Event.findById(req.params.id).populate({
     path: 'country',
-    select: 'name code',
+    select: 'name code altIcon',
   });
 
   if (!event) {

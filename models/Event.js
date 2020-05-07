@@ -16,6 +16,7 @@ const EventSchema = new mongoose.Schema({
     required: [true, 'Please add a city'],
   },
   image: String,
+  presenter: String,
   logo: {
     type: String,
     required: [true, 'Please add a logo'],

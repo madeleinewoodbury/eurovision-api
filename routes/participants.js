@@ -20,7 +20,7 @@ router
       Participant,
       {
         path: 'country',
-        select: 'name code',
+        select: 'name code altIcon',
       },
       { path: 'event', select: 'year city' }
     ),

@@ -18,7 +18,7 @@ exports.getParticipant = asyncHandler(async (req, res, next) => {
   const participant = await Participant.findById(req.params.id)
     .populate({
       path: 'country',
-      select: 'name code',
+      select: 'name code altIcon',
     })
     .populate({
       path: 'event',

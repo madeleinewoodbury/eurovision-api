@@ -11,9 +11,9 @@ const CountrySchema = new mongoose.Schema(
     },
     capital: {
       type: String,
-      // required: [true, 'Please add a capital'],
-      // trim: true,
-      // maxlength: [50, 'Capital can not be more than 50 characters'],
+      required: [true, 'Please add a capital'],
+      trim: true,
+      maxlength: [50, 'Capital can not be more than 50 characters'],
     },
     code: {
       type: String,
@@ -22,6 +22,7 @@ const CountrySchema = new mongoose.Schema(
       trim: true,
       maxlength: [2, 'Code can not be more than 2 characters'],
     },
+    altIcon: String,
     flag: {
       type: String,
       required: [true, 'Please add a flag'],
@@ -29,14 +30,6 @@ const CountrySchema = new mongoose.Schema(
     image: String,
     bio: String,
     firstParticipation: {
-      type: Number,
-      required: true,
-    },
-    victories: {
-      type: Number,
-      required: true,
-    },
-    hosted: {
       type: Number,
       required: true,
     },

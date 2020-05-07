@@ -24,7 +24,7 @@ router
   .get(
     advancedResults(Event, {
       path: 'country',
-      select: 'name code',
+      select: 'name code altIcon',
     }),
     getEvents
   )

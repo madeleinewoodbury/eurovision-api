@@ -35,6 +35,10 @@ const ParticipantSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
+  place: {
+    type: String,
+    required: true,
+  },
   image: String,
   bio: String,
   video: {
