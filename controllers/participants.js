@@ -41,7 +41,7 @@ exports.getParticipant = asyncHandler(async (req, res, next) => {
 // @access    Private
 exports.createParticipant = asyncHandler(async (req, res, next) => {
   // Turn bio into an array
-  if (req.body.bio) {
+  if (req.body.bio && req.body.bio.includes('*')) {
     let bio = req.body.bio;
     bio = bio.split('*');
     req.body.bio = bio;
@@ -56,9 +56,11 @@ exports.createParticipant = asyncHandler(async (req, res, next) => {
 exports.updateParticipant = asyncHandler(async (req, res, next) => {
   // Turn bio into an array
   if (req.body.bio) {
-    let bio = req.body.bio;
-    bio = bio.split('*');
-    req.body.bio = bio;
+    if (req.body.bio.includes('*')) {
+      let bio = req.body.bio;
+      bio = bio.split('*');
+      req.body.bio = bio;
+    }
   }
   const participant = await Participant.findByIdAndUpdate(
     req.params.id,

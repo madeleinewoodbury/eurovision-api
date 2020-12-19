@@ -47,7 +47,7 @@ exports.createEvent = asyncHandler(async (req, res, next) => {
 // @access    Private
 exports.updateEvent = asyncHandler(async (req, res, next) => {
   // Turn bio into an array
-  if (req.body.bio) {
+  if (req.body.bio && req.body.bio.includes('*')) {
     let bio = req.body.bio;
     bio = bio.split('*');
     req.body.bio = bio;
