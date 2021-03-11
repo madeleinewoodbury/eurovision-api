@@ -1,6 +1,6 @@
-const Participant = require('../models/Participant');
-const ErrorResponse = require('../utils/errorResponse');
-const asyncHandler = require('../middleware/async');
+const Participant = require("../models/Participant");
+const ErrorResponse = require("../utils/errorResponse");
+const asyncHandler = require("../middleware/async");
 
 // @desc      Get all participants
 // @route     GET /api/v1/participants
@@ -17,12 +17,12 @@ exports.getParticipants = asyncHandler(async (req, res, next) => {
 exports.getParticipant = asyncHandler(async (req, res, next) => {
   const participant = await Participant.findById(req.params.id)
     .populate({
-      path: 'country',
-      select: 'name code altIcon',
+      path: "country",
+      select: "name code altIcon",
     })
     .populate({
-      path: 'event',
-      select: 'year city',
+      path: "event",
+      select: "year city",
     });
 
   if (!participant) {
@@ -41,9 +41,9 @@ exports.getParticipant = asyncHandler(async (req, res, next) => {
 // @access    Private
 exports.createParticipant = asyncHandler(async (req, res, next) => {
   // Turn bio into an array
-  if (req.body.bio && req.body.bio.includes('*')) {
+  if (req.body.bio && req.body.bio.includes("*")) {
     let bio = req.body.bio;
-    bio = bio.split('*');
+    bio = bio.split("*");
     req.body.bio = bio;
   }
   const participant = await Participant.create(req.body);
@@ -56,9 +56,9 @@ exports.createParticipant = asyncHandler(async (req, res, next) => {
 exports.updateParticipant = asyncHandler(async (req, res, next) => {
   // Turn bio into an array
   if (req.body.bio) {
-    if (req.body.bio.includes('*')) {
+    if (req.body.bio.includes("*")) {
       let bio = req.body.bio;
-      bio = bio.split('*');
+      bio = bio.split("*");
       req.body.bio = bio;
     }
   }

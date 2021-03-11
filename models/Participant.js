@@ -1,28 +1,29 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const ParticipantSchema = new mongoose.Schema({
   artist: {
     type: String,
-    required: [true, 'Please add an artist'],
+    required: [true, "Please add an artist"],
   },
   song: {
     type: String,
-    required: [true, 'Please add a song'],
+    required: [true, "Please add a song"],
   },
   country: {
     type: mongoose.Schema.ObjectId,
-    ref: 'Country',
+    ref: "Country",
     required: true,
   },
   event: {
     type: mongoose.Schema.ObjectId,
-    ref: 'Event',
+    ref: "Event",
     required: true,
   },
   final: {
     type: Boolean,
     required: true,
   },
+  semifinal: Number,
   startNr: {
     type: Number,
     required: true,
@@ -46,4 +47,4 @@ const ParticipantSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('Participant', ParticipantSchema);
+module.exports = mongoose.model("Participant", ParticipantSchema);
