@@ -1,22 +1,22 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose')
 
 const ParticipantSchema = new mongoose.Schema({
   artist: {
     type: String,
-    required: [true, "Please add an artist"],
+    required: [true, 'Please add an artist'],
   },
   song: {
     type: String,
-    required: [true, "Please add a song"],
+    required: [true, 'Please add a song'],
   },
   country: {
     type: mongoose.Schema.ObjectId,
-    ref: "Country",
+    ref: 'Country',
     required: true,
   },
   event: {
     type: mongoose.Schema.ObjectId,
-    ref: "Event",
+    ref: 'Event',
     required: true,
   },
   final: {
@@ -24,13 +24,16 @@ const ParticipantSchema = new mongoose.Schema({
     required: true,
   },
   semifinal: Number,
+  semiStartNr: Number,
+  semiPoints: Number,
+  semiPlace: String,
   startNr: {
     type: Number,
-    required: true,
+    default: 0,
   },
   points: {
     type: Number,
-    required: true,
+    default: 0,
   },
   winner: {
     type: Boolean,
@@ -38,13 +41,13 @@ const ParticipantSchema = new mongoose.Schema({
   },
   place: {
     type: String,
-    required: true,
+    default: '00',
   },
   image: String,
   bio: Array,
   video: {
     type: String,
   },
-});
+})
 
-module.exports = mongoose.model("Participant", ParticipantSchema);
+module.exports = mongoose.model('Participant', ParticipantSchema)
