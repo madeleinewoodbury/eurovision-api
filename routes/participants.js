@@ -1,17 +1,18 @@
-const express = require('express');
+const express = require('express')
 const {
   getParticipants,
   getParticipant,
+  getWinners,
   createParticipant,
   updateParticipant,
   deleteParticipant,
-} = require('../controllers/participants');
-const router = express.Router({ mergeParams: true });
+} = require('../controllers/participants')
+const router = express.Router({ mergeParams: true })
 
-const Participant = require('../models/Participant');
-const advancedResults = require('../middleware/advancedResults');
+const Participant = require('../models/Participant')
+const advancedResults = require('../middleware/advancedResults')
 
-const { protect, authorize } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth')
 
 router
   .route('/')
@@ -26,12 +27,14 @@ router
     ),
     getParticipants
   )
-  .post(protect, authorize('admin'), createParticipant);
+  .post(protect, authorize('admin'), createParticipant)
 
 router
   .route('/:id')
   .get(getParticipant)
   .put(protect, authorize('admin'), updateParticipant)
-  .delete(protect, authorize('admin'), deleteParticipant);
+  .delete(protect, authorize('admin'), deleteParticipant)
 
-module.exports = router;
+router.route('/winners/list').get(getWinners)
+
+module.exports = router
