@@ -1,6 +1,5 @@
 const fs = require('fs');
 const mongoose = require('mongoose');
-const colors = require('colors');
 const dotenv = require('dotenv');
 
 // Load env vars
@@ -38,7 +37,7 @@ const importData = async () => {
     await Country.create(countries);
     await Event.create(events);
     await Participant.create(participants);
-    console.log('Data Imported...'.green.inverse);
+    console.log('Data Imported...');
     process.exit();
   } catch (err) {
     console.error(err);
@@ -51,7 +50,7 @@ const deleteData = async () => {
     await Country.deleteMany();
     await Event.deleteMany();
     await Participant.deleteMany();
-    console.log('Data Destroyed...'.red.inverse);
+    console.log('Data Destroyed...');
     process.exit();
   } catch (err) {
     console.error(err);
